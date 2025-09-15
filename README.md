@@ -1,12 +1,29 @@
-# Tragic: Un gioco di carte
-Template progetto finale Programmazione Procedurale con Laboratorio a.a. 2021/2022.
+# Procedural Programming Final Project (a.y. 2021/2022)
 
-Aggiungere a questo README eventuali estensioni al progetto assegnato, e scelte progettuali da comunicare.
-Al progetto sono state aggiunte diverse parti grafiche (alcune che cambiano in base alla classe scelta), un limite max e minimo per il mazzo, la condizione di non poter attaccare nel primo turno o  di non poter attaccare direttamente nel caso si abbaino meno creature posizionate rispetto all'avversario, se non si hanno carte in mano e si esegue l'azione combatti o gioca carta si da la possibilità all'utente di pescare per poi posizionare e attaccare, 3 funzioni per la stampa del titolo, della storia e dei crediti e infine diersi while e variabili per la conferma delle cose impostate dall'utente.
+This project is the final assignment for the **Procedural Programming with Laboratory** course.  
+The base project was extended with several additional features and design choices:
 
+- Added graphical elements (some of which change depending on the chosen class).  
+- Introduced a maximum and minimum deck size constraint.  
+- Implemented gameplay rules:
+  - No attacks allowed during the first turn.  
+  - No direct attacks permitted if the player has fewer creatures on the field than the opponent.  
+- When the player has no cards in hand and chooses *Fight* or *Play Card*, the game now allows drawing a new card, which can then be placed and used to attack.  
+- Added three dedicated functions to display the **title**, **story**, and **credits**.  
+- Improved user interaction by adding several confirmation prompts (loops and variables) to validate player choices.  
 
-Nome: Leonardo
+---
 
-Cognome: Billi
+## How to Run
 
-Matricola: 331332
+The project consists of three source files:  
+- `main.c`  
+- `gamelib.c`  
+- `gamelib.h`  
+
+To compile and run the game, use a C compiler such as `gcc`. From the project directory:  
+
+```bash
+gcc main.c gamelib.c -o game
+./game
+```
