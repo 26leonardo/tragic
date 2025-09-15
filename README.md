@@ -1,6 +1,7 @@
 # Procedural Programming Final Project (a.y. 2021/2022)
 
-This project is the final assignment for the **Procedural Programming with Laboratory** course.  
+This project is the final assignment for the **Procedural Programming with Laboratory** course.
+The idea is based on replicating a simpler version of the Magic card game.  
 The base project was extended with several additional features and design choices:
 
 - Added graphical elements (some of which change depending on the chosen class).  
